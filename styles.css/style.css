@@ -63,6 +63,23 @@ body{
    border-radius: 3px;
 
 }
+.navchild{
+    display: none ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px 40px;
+    position: fixed;
+    z-index: 3;
+}
+.navchildchild{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    justify-content: center;
+    margin: 10px auto;    
+}
 .reveal{
     display: flex;
    }
@@ -137,11 +154,11 @@ body{
    display: flex;
    align-items: center;
    justify-content: space-between;
-  
+  gap: 5rem;
   }
 
   .desktopimg img{
-   width: 70%;
+   width: 100%;
    margin: auto;
    display: block;
   
@@ -177,30 +194,6 @@ body{
     line-height: 60px;
    
   }
-  .reval{
-    display: block;
-   
-
-}
-.navchild{
-   width: 310px;
-   left: 40%;
-    display: none ;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    border-radius: 8px;
-    padding: 20px 10px;
-    position: fixed;
-    z-index: 2;
-}
-.navchildchild{
-    display: grid;
-    grid-template-columns: 1fr 10fr;
-    justify-content: center;
-    margin: 10px auto;    
-}
-
+  
   }
 
